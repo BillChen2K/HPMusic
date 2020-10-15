@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  HPMusic
+
+  Created by Bill Chen on 2020/10/16.
+  
+*/
+
+"CFBundleDisplayName" = "Hop Pocket Music";
+"CFBundleName" = "Hop Pocket Music";

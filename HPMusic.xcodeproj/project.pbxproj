@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEB645A82538C0B2004776C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB645A72538C0B2004776C8 /* Preview Assets.xcassets */; };
+		EEB645C62538C1B5004776C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB645C82538C1B5004776C8 /* InfoPlist.strings */; };
+		EEB645D42538C284004776C8 /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645D32538C284004776C8 /* Community.swift */; };
+		EEB645D92538C28E004776C8 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645D82538C28E004776C8 /* Search.swift */; };
+		EEB645DE2538C299004776C8 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645DD2538C298004776C8 /* Practice.swift */; };
+		EEB645E32538C2AE004776C8 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645E22538C2AE004776C8 /* Course.swift */; };
+		EEB645E82538C2D1004776C8 /* My.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645E72538C2D1004776C8 /* My.swift */; };
+		EEB645EE2538C38B004776C8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645ED2538C38B004776C8 /* TabBar.swift */; };
 		EEE02DB725386E03001D5198 /* HPMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DB625386E03001D5198 /* HPMusicApp.swift */; };
 		EEE02DB925386E03001D5198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DB825386E03001D5198 /* ContentView.swift */; };
-		EEE02DBB25386E05001D5198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE02DBA25386E05001D5198 /* Assets.xcassets */; };
-		EEE02DBE25386E05001D5198 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE02DBD25386E05001D5198 /* Preview Assets.xcassets */; };
 		EEE02DC025386E05001D5198 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DBF25386E05001D5198 /* Persistence.swift */; };
 		EEE02DC325386E05001D5198 /* HPMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DC125386E05001D5198 /* HPMusic.xcdatamodeld */; };
 		EEE02DCE25386E06001D5198 /* HPMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DCD25386E06001D5198 /* HPMusicTests.swift */; };
 		EEE02DD925386E06001D5198 /* HPMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DD825386E06001D5198 /* HPMusicUITests.swift */; };
+		EEFA850D2538B20700C4BDB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE02DBA25386E05001D5198 /* Assets.xcassets */; };
+		EEFA85442538B77300C4BDB6 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEFA85462538B77300C4BDB6 /* Localization.strings */; };
+		EEFA855E2538B9C000C4BDB6 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFA855D2538B9C000C4BDB6 /* Localization.swift */; };
+		EEFA85662538BA2F00C4BDB6 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEFA85652538BA2F00C4BDB6 /* Config.plist */; };
+		EEFA856F2538BB3800C4BDB6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFA856E2538BB3800C4BDB6 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +46,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EEB645A72538C0B2004776C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEB645AC2538C0DD004776C8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HPMusic/Info.plist; sourceTree = SOURCE_ROOT; };
+		EEB645C72538C1B5004776C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		EEB645CC2538C1B8004776C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEB645D32538C284004776C8 /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
+		EEB645D82538C28E004776C8 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		EEB645DD2538C298004776C8 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		EEB645E22538C2AE004776C8 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		EEB645E72538C2D1004776C8 /* My.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My.swift; sourceTree = "<group>"; };
+		EEB645ED2538C38B004776C8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		EEE02DB325386E03001D5198 /* HPMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE02DB625386E03001D5198 /* HPMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPMusicApp.swift; sourceTree = "<group>"; };
 		EEE02DB825386E03001D5198 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEE02DBA25386E05001D5198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EEE02DBD25386E05001D5198 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEE02DBF25386E05001D5198 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		EEE02DC225386E05001D5198 /* HPMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HPMusic.xcdatamodel; sourceTree = "<group>"; };
-		EEE02DC425386E05001D5198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEE02DC925386E06001D5198 /* HPMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE02DCD25386E06001D5198 /* HPMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPMusicTests.swift; sourceTree = "<group>"; };
 		EEE02DCF25386E06001D5198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEE02DD425386E06001D5198 /* HPMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE02DD825386E06001D5198 /* HPMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPMusicUITests.swift; sourceTree = "<group>"; };
 		EEE02DDA25386E06001D5198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFA85452538B77300C4BDB6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localization.strings"; sourceTree = "<group>"; };
+		EEFA854A2538B77600C4BDB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
+		EEFA855D2538B9C000C4BDB6 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		EEFA85652538BA2F00C4BDB6 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		EEFA856E2538BB3800C4BDB6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +100,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EEB645A32538C08F004776C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEB645A72538C0B2004776C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEB645EC2538C37E004776C8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EEB645ED2538C38B004776C8 /* TabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		EEE02DAA25386E03001D5198 = {
 			isa = PBXGroup;
 			children = (
@@ -99,23 +139,23 @@
 		EEE02DB525386E03001D5198 /* HPMusic */ = {
 			isa = PBXGroup;
 			children = (
+				EEB645C82538C1B5004776C8 /* InfoPlist.strings */,
+				EEFA85462538B77300C4BDB6 /* Localization.strings */,
+				EEFA85652538BA2F00C4BDB6 /* Config.plist */,
+				EEFA84FE2538ADAE00C4BDB6 /* View */,
+				EEFA85012538ADCD00C4BDB6 /* Service */,
+				EEFA84FF2538ADB700C4BDB6 /* Controller */,
+				EEFA85002538ADC100C4BDB6 /* Model */,
+				EEFA855C2538B9A600C4BDB6 /* Utils */,
 				EEE02DB625386E03001D5198 /* HPMusicApp.swift */,
 				EEE02DB825386E03001D5198 /* ContentView.swift */,
-				EEE02DBA25386E05001D5198 /* Assets.xcassets */,
 				EEE02DBF25386E05001D5198 /* Persistence.swift */,
-				EEE02DC425386E05001D5198 /* Info.plist */,
+				EEB645AC2538C0DD004776C8 /* Info.plist */,
+				EEE02DBA25386E05001D5198 /* Assets.xcassets */,
 				EEE02DC125386E05001D5198 /* HPMusic.xcdatamodeld */,
-				EEE02DBC25386E05001D5198 /* Preview Content */,
+				EEB645A32538C08F004776C8 /* Preview Content */,
 			);
 			path = HPMusic;
-			sourceTree = "<group>";
-		};
-		EEE02DBC25386E05001D5198 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				EEE02DBD25386E05001D5198 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		EEE02DCC25386E06001D5198 /* HPMusicTests */ = {
@@ -134,6 +174,49 @@
 				EEE02DDA25386E06001D5198 /* Info.plist */,
 			);
 			path = HPMusicUITests;
+			sourceTree = "<group>";
+		};
+		EEFA84FE2538ADAE00C4BDB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB645EC2538C37E004776C8 /* Components */,
+				EEB645D32538C284004776C8 /* Community.swift */,
+				EEB645D82538C28E004776C8 /* Search.swift */,
+				EEB645DD2538C298004776C8 /* Practice.swift */,
+				EEB645E22538C2AE004776C8 /* Course.swift */,
+				EEB645E72538C2D1004776C8 /* My.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEFA84FF2538ADB700C4BDB6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EEFA85002538ADC100C4BDB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEFA85012538ADCD00C4BDB6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EEFA855C2538B9A600C4BDB6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EEFA855D2538B9C000C4BDB6 /* Localization.swift */,
+				EEFA856E2538BB3800C4BDB6 /* Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +303,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 				Base,
 			);
 			mainGroup = EEE02DAA25386E03001D5198;
@@ -239,8 +323,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEE02DBE25386E05001D5198 /* Preview Assets.xcassets in Resources */,
-				EEE02DBB25386E05001D5198 /* Assets.xcassets in Resources */,
+				EEB645A82538C0B2004776C8 /* Preview Assets.xcassets in Resources */,
+				EEFA85662538BA2F00C4BDB6 /* Config.plist in Resources */,
+				EEFA850D2538B20700C4BDB6 /* Assets.xcassets in Resources */,
+				EEFA85442538B77300C4BDB6 /* Localization.strings in Resources */,
+				EEB645C62538C1B5004776C8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +352,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB645DE2538C299004776C8 /* Practice.swift in Sources */,
 				EEE02DC025386E05001D5198 /* Persistence.swift in Sources */,
+				EEB645E32538C2AE004776C8 /* Course.swift in Sources */,
+				EEB645EE2538C38B004776C8 /* TabBar.swift in Sources */,
+				EEFA855E2538B9C000C4BDB6 /* Localization.swift in Sources */,
 				EEE02DC325386E05001D5198 /* HPMusic.xcdatamodeld in Sources */,
 				EEE02DB925386E03001D5198 /* ContentView.swift in Sources */,
 				EEE02DB725386E03001D5198 /* HPMusicApp.swift in Sources */,
+				EEB645E82538C2D1004776C8 /* My.swift in Sources */,
+				EEB645D92538C28E004776C8 /* Search.swift in Sources */,
+				EEB645D42538C284004776C8 /* Community.swift in Sources */,
+				EEFA856F2538BB3800C4BDB6 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +397,27 @@
 			targetProxy = EEE02DD525386E06001D5198 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB645C82538C1B5004776C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB645C72538C1B5004776C8 /* zh-Hans */,
+				EEB645CC2538C1B8004776C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEFA85462538B77300C4BDB6 /* Localization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFA85452538B77300C4BDB6 /* zh-Hans */,
+				EEFA854A2538B77600C4BDB6 /* en */,
+			);
+			name = Localization.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EEE02DDB25386E06001D5198 /* Debug */ = {
@@ -435,7 +551,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hoppocketmusic.HPMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoppocketmusic.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +573,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hoppocketmusic.HPMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoppocketmusic.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
