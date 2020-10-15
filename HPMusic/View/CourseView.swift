@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct Course: View {
+struct CourseView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("课程")
     }
 }
 
-struct Course_Previews: PreviewProvider {
+struct CourseView_Previews: PreviewProvider {
     static var previews: some View {
-        Course()
+        CourseView()
     }
 }

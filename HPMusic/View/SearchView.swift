@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct Search: View {
+struct SearchView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("搜索")
     }
 }
 
 struct Search_Previews: PreviewProvider {
     static var previews: some View {
-        Search()
+        SearchView()
     }
 }

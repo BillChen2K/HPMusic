@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct My: View {
+struct MyView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("我的")
     }
 }
 
-struct My_Previews: PreviewProvider {
+struct MyView_Previews: PreviewProvider {
     static var previews: some View {
-        My()
+        MyView()
     }
 }

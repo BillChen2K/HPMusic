@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		EEB645A82538C0B2004776C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB645A72538C0B2004776C8 /* Preview Assets.xcassets */; };
 		EEB645C62538C1B5004776C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB645C82538C1B5004776C8 /* InfoPlist.strings */; };
-		EEB645D42538C284004776C8 /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645D32538C284004776C8 /* Community.swift */; };
-		EEB645D92538C28E004776C8 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645D82538C28E004776C8 /* Search.swift */; };
-		EEB645DE2538C299004776C8 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645DD2538C298004776C8 /* Practice.swift */; };
-		EEB645E32538C2AE004776C8 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645E22538C2AE004776C8 /* Course.swift */; };
-		EEB645E82538C2D1004776C8 /* My.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645E72538C2D1004776C8 /* My.swift */; };
-		EEB645EE2538C38B004776C8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645ED2538C38B004776C8 /* TabBar.swift */; };
+		EEB645D42538C284004776C8 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645D32538C284004776C8 /* CommunityView.swift */; };
+		EEB645D92538C28E004776C8 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645D82538C28E004776C8 /* SearchView.swift */; };
+		EEB645DE2538C299004776C8 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645DD2538C298004776C8 /* PracticeView.swift */; };
+		EEB645E32538C2AE004776C8 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645E22538C2AE004776C8 /* CourseView.swift */; };
+		EEB645E82538C2D1004776C8 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645E72538C2D1004776C8 /* MyView.swift */; };
+		EEB645EE2538C38B004776C8 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645ED2538C38B004776C8 /* CustomTabView.swift */; };
+		EEB645F62538C53E004776C8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EEB645F52538C53E004776C8 /* .gitignore */; };
+		EEB646012538C62F004776C8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EEB646002538C62F004776C8 /* README.md */; };
 		EEE02DB725386E03001D5198 /* HPMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DB625386E03001D5198 /* HPMusicApp.swift */; };
 		EEE02DB925386E03001D5198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DB825386E03001D5198 /* ContentView.swift */; };
 		EEE02DC025386E05001D5198 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DBF25386E05001D5198 /* Persistence.swift */; };
@@ -50,12 +52,14 @@
 		EEB645AC2538C0DD004776C8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HPMusic/Info.plist; sourceTree = SOURCE_ROOT; };
 		EEB645C72538C1B5004776C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		EEB645CC2538C1B8004776C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EEB645D32538C284004776C8 /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
-		EEB645D82538C28E004776C8 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
-		EEB645DD2538C298004776C8 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
-		EEB645E22538C2AE004776C8 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
-		EEB645E72538C2D1004776C8 /* My.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My.swift; sourceTree = "<group>"; };
-		EEB645ED2538C38B004776C8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		EEB645D32538C284004776C8 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		EEB645D82538C28E004776C8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		EEB645DD2538C298004776C8 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		EEB645E22538C2AE004776C8 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		EEB645E72538C2D1004776C8 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		EEB645ED2538C38B004776C8 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		EEB645F52538C53E004776C8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		EEB646002538C62F004776C8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EEE02DB325386E03001D5198 /* HPMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE02DB625386E03001D5198 /* HPMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPMusicApp.swift; sourceTree = "<group>"; };
 		EEE02DB825386E03001D5198 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,7 +115,7 @@
 		EEB645EC2538C37E004776C8 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				EEB645ED2538C38B004776C8 /* TabBar.swift */,
+				EEB645ED2538C38B004776C8 /* CustomTabView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -119,6 +123,8 @@
 		EEE02DAA25386E03001D5198 = {
 			isa = PBXGroup;
 			children = (
+				EEB646002538C62F004776C8 /* README.md */,
+				EEB645F52538C53E004776C8 /* .gitignore */,
 				EEE02DB525386E03001D5198 /* HPMusic */,
 				EEE02DCC25386E06001D5198 /* HPMusicTests */,
 				EEE02DD725386E06001D5198 /* HPMusicUITests */,
@@ -180,11 +186,11 @@
 			isa = PBXGroup;
 			children = (
 				EEB645EC2538C37E004776C8 /* Components */,
-				EEB645D32538C284004776C8 /* Community.swift */,
-				EEB645D82538C28E004776C8 /* Search.swift */,
-				EEB645DD2538C298004776C8 /* Practice.swift */,
-				EEB645E22538C2AE004776C8 /* Course.swift */,
-				EEB645E72538C2D1004776C8 /* My.swift */,
+				EEB645D32538C284004776C8 /* CommunityView.swift */,
+				EEB645D82538C28E004776C8 /* SearchView.swift */,
+				EEB645DD2538C298004776C8 /* PracticeView.swift */,
+				EEB645E22538C2AE004776C8 /* CourseView.swift */,
+				EEB645E72538C2D1004776C8 /* MyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -326,7 +332,9 @@
 				EEB645A82538C0B2004776C8 /* Preview Assets.xcassets in Resources */,
 				EEFA85662538BA2F00C4BDB6 /* Config.plist in Resources */,
 				EEFA850D2538B20700C4BDB6 /* Assets.xcassets in Resources */,
+				EEB646012538C62F004776C8 /* README.md in Resources */,
 				EEFA85442538B77300C4BDB6 /* Localization.strings in Resources */,
+				EEB645F62538C53E004776C8 /* .gitignore in Resources */,
 				EEB645C62538C1B5004776C8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,17 +360,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEB645DE2538C299004776C8 /* Practice.swift in Sources */,
+				EEB645DE2538C299004776C8 /* PracticeView.swift in Sources */,
 				EEE02DC025386E05001D5198 /* Persistence.swift in Sources */,
-				EEB645E32538C2AE004776C8 /* Course.swift in Sources */,
-				EEB645EE2538C38B004776C8 /* TabBar.swift in Sources */,
+				EEB645E32538C2AE004776C8 /* CourseView.swift in Sources */,
+				EEB645EE2538C38B004776C8 /* CustomTabView.swift in Sources */,
 				EEFA855E2538B9C000C4BDB6 /* Localization.swift in Sources */,
 				EEE02DC325386E05001D5198 /* HPMusic.xcdatamodeld in Sources */,
 				EEE02DB925386E03001D5198 /* ContentView.swift in Sources */,
 				EEE02DB725386E03001D5198 /* HPMusicApp.swift in Sources */,
-				EEB645E82538C2D1004776C8 /* My.swift in Sources */,
-				EEB645D92538C28E004776C8 /* Search.swift in Sources */,
-				EEB645D42538C284004776C8 /* Community.swift in Sources */,
+				EEB645E82538C2D1004776C8 /* MyView.swift in Sources */,
+				EEB645D92538C28E004776C8 /* SearchView.swift in Sources */,
+				EEB645D42538C284004776C8 /* CommunityView.swift in Sources */,
 				EEFA856F2538BB3800C4BDB6 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

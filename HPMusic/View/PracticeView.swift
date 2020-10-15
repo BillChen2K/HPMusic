@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct Practice: View {
+struct PracticeView: View {
     var body: some View {
         Text(NSL("练习"))
         
@@ -17,8 +17,8 @@ struct Practice: View {
     }
 }
 
-struct Practice_Previews: PreviewProvider {
+struct PracticeView_Previews: PreviewProvider {
     static var previews: some View {
-        Practice()
+        PracticeView()
     }
 }
