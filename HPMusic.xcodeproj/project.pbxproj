@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEE02DB725386E03001D5198 /* HPMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DB625386E03001D5198 /* HPMusicApp.swift */; };
+		EEE02DB925386E03001D5198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DB825386E03001D5198 /* ContentView.swift */; };
+		EEE02DBB25386E05001D5198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE02DBA25386E05001D5198 /* Assets.xcassets */; };
+		EEE02DBE25386E05001D5198 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE02DBD25386E05001D5198 /* Preview Assets.xcassets */; };
+		EEE02DC025386E05001D5198 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DBF25386E05001D5198 /* Persistence.swift */; };
+		EEE02DC325386E05001D5198 /* HPMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DC125386E05001D5198 /* HPMusic.xcdatamodeld */; };
+		EEE02DCE25386E06001D5198 /* HPMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DCD25386E06001D5198 /* HPMusicTests.swift */; };
+		EEE02DD925386E06001D5198 /* HPMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DD825386E06001D5198 /* HPMusicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE02DCA25386E06001D5198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE02DAB25386E03001D5198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE02DB225386E03001D5198;
+			remoteInfo = HPMusic;
+		};
+		EEE02DD525386E06001D5198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE02DAB25386E03001D5198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE02DB225386E03001D5198;
+			remoteInfo = HPMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEE02DB325386E03001D5198 /* HPMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE02DB625386E03001D5198 /* HPMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPMusicApp.swift; sourceTree = "<group>"; };
+		EEE02DB825386E03001D5198 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEE02DBA25386E05001D5198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE02DBD25386E05001D5198 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEE02DBF25386E05001D5198 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EEE02DC225386E05001D5198 /* HPMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HPMusic.xcdatamodel; sourceTree = "<group>"; };
+		EEE02DC425386E05001D5198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE02DC925386E06001D5198 /* HPMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE02DCD25386E06001D5198 /* HPMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPMusicTests.swift; sourceTree = "<group>"; };
+		EEE02DCF25386E06001D5198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE02DD425386E06001D5198 /* HPMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE02DD825386E06001D5198 /* HPMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPMusicUITests.swift; sourceTree = "<group>"; };
+		EEE02DDA25386E06001D5198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE02DB025386E03001D5198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE02DC625386E06001D5198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE02DD125386E06001D5198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEE02DAA25386E03001D5198 = {
+			isa = PBXGroup;
+			children = (
+				EEE02DB525386E03001D5198 /* HPMusic */,
+				EEE02DCC25386E06001D5198 /* HPMusicTests */,
+				EEE02DD725386E06001D5198 /* HPMusicUITests */,
+				EEE02DB425386E03001D5198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE02DB425386E03001D5198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE02DB325386E03001D5198 /* HPMusic.app */,
+				EEE02DC925386E06001D5198 /* HPMusicTests.xctest */,
+				EEE02DD425386E06001D5198 /* HPMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE02DB525386E03001D5198 /* HPMusic */ = {
+			isa = PBXGroup;
+			children = (
+				EEE02DB625386E03001D5198 /* HPMusicApp.swift */,
+				EEE02DB825386E03001D5198 /* ContentView.swift */,
+				EEE02DBA25386E05001D5198 /* Assets.xcassets */,
+				EEE02DBF25386E05001D5198 /* Persistence.swift */,
+				EEE02DC425386E05001D5198 /* Info.plist */,
+				EEE02DC125386E05001D5198 /* HPMusic.xcdatamodeld */,
+				EEE02DBC25386E05001D5198 /* Preview Content */,
+			);
+			path = HPMusic;
+			sourceTree = "<group>";
+		};
+		EEE02DBC25386E05001D5198 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEE02DBD25386E05001D5198 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEE02DCC25386E06001D5198 /* HPMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE02DCD25386E06001D5198 /* HPMusicTests.swift */,
+				EEE02DCF25386E06001D5198 /* Info.plist */,
+			);
+			path = HPMusicTests;
+			sourceTree = "<group>";
+		};
+		EEE02DD725386E06001D5198 /* HPMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE02DD825386E06001D5198 /* HPMusicUITests.swift */,
+				EEE02DDA25386E06001D5198 /* Info.plist */,
+			);
+			path = HPMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE02DB225386E03001D5198 /* HPMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE02DDD25386E06001D5198 /* Build configuration list for PBXNativeTarget "HPMusic" */;
+			buildPhases = (
+				EEE02DAF25386E03001D5198 /* Sources */,
+				EEE02DB025386E03001D5198 /* Frameworks */,
+				EEE02DB125386E03001D5198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPMusic;
+			productName = HPMusic;
+			productReference = EEE02DB325386E03001D5198 /* HPMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEE02DC825386E06001D5198 /* HPMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE02DE025386E06001D5198 /* Build configuration list for PBXNativeTarget "HPMusicTests" */;
+			buildPhases = (
+				EEE02DC525386E06001D5198 /* Sources */,
+				EEE02DC625386E06001D5198 /* Frameworks */,
+				EEE02DC725386E06001D5198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE02DCB25386E06001D5198 /* PBXTargetDependency */,
+			);
+			name = HPMusicTests;
+			productName = HPMusicTests;
+			productReference = EEE02DC925386E06001D5198 /* HPMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEE02DD325386E06001D5198 /* HPMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE02DE325386E06001D5198 /* Build configuration list for PBXNativeTarget "HPMusicUITests" */;
+			buildPhases = (
+				EEE02DD025386E06001D5198 /* Sources */,
+				EEE02DD125386E06001D5198 /* Frameworks */,
+				EEE02DD225386E06001D5198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE02DD625386E06001D5198 /* PBXTargetDependency */,
+			);
+			name = HPMusicUITests;
+			productName = HPMusicUITests;
+			productReference = EEE02DD425386E06001D5198 /* HPMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE02DAB25386E03001D5198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					EEE02DB225386E03001D5198 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					EEE02DC825386E06001D5198 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = EEE02DB225386E03001D5198;
+					};
+					EEE02DD325386E06001D5198 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = EEE02DB225386E03001D5198;
+					};
+				};
+			};
+			buildConfigurationList = EEE02DAE25386E03001D5198 /* Build configuration list for PBXProject "HPMusic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE02DAA25386E03001D5198;
+			productRefGroup = EEE02DB425386E03001D5198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE02DB225386E03001D5198 /* HPMusic */,
+				EEE02DC825386E06001D5198 /* HPMusicTests */,
+				EEE02DD325386E06001D5198 /* HPMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE02DB125386E03001D5198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE02DBE25386E05001D5198 /* Preview Assets.xcassets in Resources */,
+				EEE02DBB25386E05001D5198 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE02DC725386E06001D5198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE02DD225386E06001D5198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE02DAF25386E03001D5198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE02DC025386E05001D5198 /* Persistence.swift in Sources */,
+				EEE02DC325386E05001D5198 /* HPMusic.xcdatamodeld in Sources */,
+				EEE02DB925386E03001D5198 /* ContentView.swift in Sources */,
+				EEE02DB725386E03001D5198 /* HPMusicApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE02DC525386E06001D5198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE02DCE25386E06001D5198 /* HPMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE02DD025386E06001D5198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE02DD925386E06001D5198 /* HPMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEE02DCB25386E06001D5198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE02DB225386E03001D5198 /* HPMusic */;
+			targetProxy = EEE02DCA25386E06001D5198 /* PBXContainerItemProxy */;
+		};
+		EEE02DD625386E06001D5198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE02DB225386E03001D5198 /* HPMusic */;
+			targetProxy = EEE02DD525386E06001D5198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EEE02DDB25386E06001D5198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEE02DDC25386E06001D5198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE02DDE25386E06001D5198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HPMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P6FX59VQB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HPMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoppocketmusic.HPMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE02DDF25386E06001D5198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HPMusic/Preview Content\"";
+				DEVELOPMENT_TEAM = 7P6FX59VQB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HPMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoppocketmusic.HPMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEE02DE125386E06001D5198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P6FX59VQB;
+				INFOPLIST_FILE = HPMusicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoppocketmusic.HPMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPMusic.app/HPMusic";
+			};
+			name = Debug;
+		};
+		EEE02DE225386E06001D5198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P6FX59VQB;
+				INFOPLIST_FILE = HPMusicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoppocketmusic.HPMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPMusic.app/HPMusic";
+			};
+			name = Release;
+		};
+		EEE02DE425386E06001D5198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P6FX59VQB;
+				INFOPLIST_FILE = HPMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoppocketmusic.HPMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HPMusic;
+			};
+			name = Debug;
+		};
+		EEE02DE525386E06001D5198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P6FX59VQB;
+				INFOPLIST_FILE = HPMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoppocketmusic.HPMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HPMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE02DAE25386E03001D5198 /* Build configuration list for PBXProject "HPMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE02DDB25386E06001D5198 /* Debug */,
+				EEE02DDC25386E06001D5198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE02DDD25386E06001D5198 /* Build configuration list for PBXNativeTarget "HPMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE02DDE25386E06001D5198 /* Debug */,
+				EEE02DDF25386E06001D5198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE02DE025386E06001D5198 /* Build configuration list for PBXNativeTarget "HPMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE02DE125386E06001D5198 /* Debug */,
+				EEE02DE225386E06001D5198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE02DE325386E06001D5198 /* Build configuration list for PBXNativeTarget "HPMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE02DE425386E06001D5198 /* Debug */,
+				EEE02DE525386E06001D5198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EEE02DC125386E05001D5198 /* HPMusic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EEE02DC225386E05001D5198 /* HPMusic.xcdatamodel */,
+			);
+			currentVersion = EEE02DC225386E05001D5198 /* HPMusic.xcdatamodel */;
+			path = HPMusic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EEE02DAB25386E03001D5198 /* Project object */;
+}
