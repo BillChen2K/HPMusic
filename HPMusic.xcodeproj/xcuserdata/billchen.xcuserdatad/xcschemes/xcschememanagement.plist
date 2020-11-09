@@ -7,7 +7,25 @@
 		<key>HPMusic.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EEE02DB225386E03001D5198</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEE02DC825386E06001D5198</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEE02DD325386E06001D5198</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

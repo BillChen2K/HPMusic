@@ -4,6 +4,7 @@
 
 import Foundation
 import SwiftUI
+import UIKit
 
 typealias TabItem = (tag: Int, tab: AnyView)
 

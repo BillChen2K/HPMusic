@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "BILLCART2020S.jpg",
+      "filename" : "LaunchScreen-2.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "BILLCART2020S-1.jpg",
+      "filename" : "LaunchScreen-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "BILLCART2020S-2.jpg",
+      "filename" : "LaunchScreen.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

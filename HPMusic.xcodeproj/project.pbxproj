@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B394792734ECD9AFECA08D7 /* Pods_HPMusic_HPMusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F0BD8199E440C2AA7561CB /* Pods_HPMusic_HPMusicUITests.framework */; };
+		849792EE68B09213DA9E52E0 /* Pods_HPMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E2BA766F1566B4C125C79A /* Pods_HPMusicTests.framework */; };
+		C05177C59C96977F2B79CF47 /* Pods_HPMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048737B8B2EF69038099A180 /* Pods_HPMusic.framework */; };
+		EE28394B25516DB900D314F5 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28394A25516DB900D314F5 /* Instrument.swift */; };
 		EEB645A82538C0B2004776C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB645A72538C0B2004776C8 /* Preview Assets.xcassets */; };
 		EEB645C62538C1B5004776C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB645C82538C1B5004776C8 /* InfoPlist.strings */; };
 		EEB645D42538C284004776C8 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645D32538C284004776C8 /* CommunityView.swift */; };
@@ -17,6 +21,18 @@
 		EEB645EE2538C38B004776C8 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645ED2538C38B004776C8 /* CustomTabView.swift */; };
 		EEB645F62538C53E004776C8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EEB645F52538C53E004776C8 /* .gitignore */; };
 		EEB646012538C62F004776C8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EEB646002538C62F004776C8 /* README.md */; };
+		EEC46316253E6DCB00404684 /* HPLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC46315253E6DCB00404684 /* HPLoader.swift */; };
+		EEC4631B253E988200404684 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4631A253E988200404684 /* ColorExtension.swift */; };
+		EEC8D0D625598956000D60F1 /* PracticeStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8D0D525598956000D60F1 /* PracticeStatisticsView.swift */; };
+		EEC8D0E325599393000D60F1 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8D0E225599393000D60F1 /* Course.swift */; };
+		EEC8D0E825599575000D60F1 /* CourseStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8D0E725599575000D60F1 /* CourseStage.swift */; };
+		EEC8D0F0255995F1000D60F1 /* CourseDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8D0EF255995F1000D60F1 /* CourseDescriptor.swift */; };
+		EED59EA2255967E200A15D45 /* InstrumentSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED59EA1255967E200A15D45 /* InstrumentSelector.swift */; };
+		EED59EA7255967F600A15D45 /* PracticePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED59EA6255967F600A15D45 /* PracticePlayView.swift */; };
+		EED59EAC2559682100A15D45 /* PracticeSkillPocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED59EAB2559682100A15D45 /* PracticeSkillPocketView.swift */; };
+		EED59EB12559684000A15D45 /* PracticeMovementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED59EB02559684000A15D45 /* PracticeMovementView.swift */; };
+		EED59EB62559684C00A15D45 /* PracticeSongLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED59EB52559684C00A15D45 /* PracticeSongLibraryView.swift */; };
+		EED59EBB255971A000A15D45 /* HPAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED59EBA255971A000A15D45 /* HPAnimation.swift */; };
 		EEE02DB725386E03001D5198 /* HPMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DB625386E03001D5198 /* HPMusicApp.swift */; };
 		EEE02DB925386E03001D5198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DB825386E03001D5198 /* ContentView.swift */; };
 		EEE02DC025386E05001D5198 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DBF25386E05001D5198 /* Persistence.swift */; };
@@ -48,6 +64,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048737B8B2EF69038099A180 /* Pods_HPMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11CCD300A8BAE8AE279BA798 /* Pods-HPMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPMusic.release.xcconfig"; path = "Target Support Files/Pods-HPMusic/Pods-HPMusic.release.xcconfig"; sourceTree = "<group>"; };
+		34E9325704952AB5B1CC07B0 /* Pods-HPMusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPMusicTests.release.xcconfig"; path = "Target Support Files/Pods-HPMusicTests/Pods-HPMusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F352F5B49D23D5F2E510307 /* Pods-HPMusic-HPMusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPMusic-HPMusicUITests.release.xcconfig"; path = "Target Support Files/Pods-HPMusic-HPMusicUITests/Pods-HPMusic-HPMusicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		61F0BD8199E440C2AA7561CB /* Pods_HPMusic_HPMusicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPMusic_HPMusicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E2BA766F1566B4C125C79A /* Pods_HPMusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPMusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03E3D90F6DBEB8C3DD73ADD /* Pods-HPMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPMusic.debug.xcconfig"; path = "Target Support Files/Pods-HPMusic/Pods-HPMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		E6E4E659D1735F30FF7C1188 /* Pods-HPMusic-HPMusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPMusic-HPMusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-HPMusic-HPMusicUITests/Pods-HPMusic-HPMusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE28394A25516DB900D314F5 /* Instrument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
 		EEB645A72538C0B2004776C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEB645AC2538C0DD004776C8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HPMusic/Info.plist; sourceTree = SOURCE_ROOT; };
 		EEB645C72538C1B5004776C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -60,6 +85,19 @@
 		EEB645ED2538C38B004776C8 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		EEB645F52538C53E004776C8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		EEB646002538C62F004776C8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EEC46315253E6DCB00404684 /* HPLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPLoader.swift; sourceTree = "<group>"; };
+		EEC4631A253E988200404684 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		EEC8D0D525598956000D60F1 /* PracticeStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeStatisticsView.swift; sourceTree = "<group>"; };
+		EEC8D0E225599393000D60F1 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		EEC8D0E725599575000D60F1 /* CourseStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStage.swift; sourceTree = "<group>"; };
+		EEC8D0EF255995F1000D60F1 /* CourseDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDescriptor.swift; sourceTree = "<group>"; };
+		EED59EA1255967E200A15D45 /* InstrumentSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentSelector.swift; sourceTree = "<group>"; };
+		EED59EA6255967F600A15D45 /* PracticePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePlayView.swift; sourceTree = "<group>"; };
+		EED59EAB2559682100A15D45 /* PracticeSkillPocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSkillPocketView.swift; sourceTree = "<group>"; };
+		EED59EB02559684000A15D45 /* PracticeMovementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeMovementView.swift; sourceTree = "<group>"; };
+		EED59EB52559684C00A15D45 /* PracticeSongLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSongLibraryView.swift; sourceTree = "<group>"; };
+		EED59EBA255971A000A15D45 /* HPAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPAnimation.swift; sourceTree = "<group>"; };
+		EED97DFD25517A5600299E57 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localization.strings"; sourceTree = "<group>"; };
 		EEE02DB325386E03001D5198 /* HPMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE02DB625386E03001D5198 /* HPMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPMusicApp.swift; sourceTree = "<group>"; };
 		EEE02DB825386E03001D5198 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,11 +110,11 @@
 		EEE02DD425386E06001D5198 /* HPMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE02DD825386E06001D5198 /* HPMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPMusicUITests.swift; sourceTree = "<group>"; };
 		EEE02DDA25386E06001D5198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEFA85452538B77300C4BDB6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localization.strings"; sourceTree = "<group>"; };
 		EEFA854A2538B77600C4BDB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
 		EEFA855D2538B9C000C4BDB6 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		EEFA85652538BA2F00C4BDB6 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		EEFA856E2538BB3800C4BDB6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F1D4B2FA95E5A746A43EEA80 /* Pods-HPMusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPMusicTests.debug.xcconfig"; path = "Target Support Files/Pods-HPMusicTests/Pods-HPMusicTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05177C59C96977F2B79CF47 /* Pods_HPMusic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849792EE68B09213DA9E52E0 /* Pods_HPMusicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +138,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B394792734ECD9AFECA08D7 /* Pods_HPMusic_HPMusicUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FCC65366CCFB48D0E8ABA44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048737B8B2EF69038099A180 /* Pods_HPMusic.framework */,
+				61F0BD8199E440C2AA7561CB /* Pods_HPMusic_HPMusicUITests.framework */,
+				90E2BA766F1566B4C125C79A /* Pods_HPMusicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5486BCF03331DCD445BF326 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A03E3D90F6DBEB8C3DD73ADD /* Pods-HPMusic.debug.xcconfig */,
+				11CCD300A8BAE8AE279BA798 /* Pods-HPMusic.release.xcconfig */,
+				E6E4E659D1735F30FF7C1188 /* Pods-HPMusic-HPMusicUITests.debug.xcconfig */,
+				5F352F5B49D23D5F2E510307 /* Pods-HPMusic-HPMusicUITests.release.xcconfig */,
+				F1D4B2FA95E5A746A43EEA80 /* Pods-HPMusicTests.debug.xcconfig */,
+				34E9325704952AB5B1CC07B0 /* Pods-HPMusicTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE28395825516E7500D314F5 /* InstrumentImpl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InstrumentImpl;
+			sourceTree = "<group>";
+		};
 		EEB645A32538C08F004776C8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,8 +187,22 @@
 			isa = PBXGroup;
 			children = (
 				EEB645ED2538C38B004776C8 /* CustomTabView.swift */,
+				EEC46315253E6DCB00404684 /* HPLoader.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		EED59E95255963CE00A15D45 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				EED59EA1255967E200A15D45 /* InstrumentSelector.swift */,
+				EED59EA6255967F600A15D45 /* PracticePlayView.swift */,
+				EED59EAB2559682100A15D45 /* PracticeSkillPocketView.swift */,
+				EED59EB02559684000A15D45 /* PracticeMovementView.swift */,
+				EED59EB52559684C00A15D45 /* PracticeSongLibraryView.swift */,
+				EEC8D0D525598956000D60F1 /* PracticeStatisticsView.swift */,
+			);
+			path = Practice;
 			sourceTree = "<group>";
 		};
 		EEE02DAA25386E03001D5198 = {
@@ -129,6 +214,8 @@
 				EEE02DCC25386E06001D5198 /* HPMusicTests */,
 				EEE02DD725386E06001D5198 /* HPMusicUITests */,
 				EEE02DB425386E03001D5198 /* Products */,
+				D5486BCF03331DCD445BF326 /* Pods */,
+				1FCC65366CCFB48D0E8ABA44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,18 +232,18 @@
 		EEE02DB525386E03001D5198 /* HPMusic */ = {
 			isa = PBXGroup;
 			children = (
-				EEB645C82538C1B5004776C8 /* InfoPlist.strings */,
-				EEFA85462538B77300C4BDB6 /* Localization.strings */,
-				EEFA85652538BA2F00C4BDB6 /* Config.plist */,
 				EEFA84FE2538ADAE00C4BDB6 /* View */,
 				EEFA85012538ADCD00C4BDB6 /* Service */,
 				EEFA84FF2538ADB700C4BDB6 /* Controller */,
 				EEFA85002538ADC100C4BDB6 /* Model */,
 				EEFA855C2538B9A600C4BDB6 /* Utils */,
+				EEFA85652538BA2F00C4BDB6 /* Config.plist */,
 				EEE02DB625386E03001D5198 /* HPMusicApp.swift */,
 				EEE02DB825386E03001D5198 /* ContentView.swift */,
 				EEE02DBF25386E05001D5198 /* Persistence.swift */,
 				EEB645AC2538C0DD004776C8 /* Info.plist */,
+				EEB645C82538C1B5004776C8 /* InfoPlist.strings */,
+				EEFA85462538B77300C4BDB6 /* Localization.strings */,
 				EEE02DBA25386E05001D5198 /* Assets.xcassets */,
 				EEE02DC125386E05001D5198 /* HPMusic.xcdatamodeld */,
 				EEB645A32538C08F004776C8 /* Preview Content */,
@@ -185,6 +272,7 @@
 		EEFA84FE2538ADAE00C4BDB6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EED59E95255963CE00A15D45 /* Practice */,
 				EEB645EC2538C37E004776C8 /* Components */,
 				EEB645D32538C284004776C8 /* CommunityView.swift */,
 				EEB645D82538C28E004776C8 /* SearchView.swift */,
@@ -205,6 +293,11 @@
 		EEFA85002538ADC100C4BDB6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EE28395825516E7500D314F5 /* InstrumentImpl */,
+				EE28394A25516DB900D314F5 /* Instrument.swift */,
+				EEC8D0E225599393000D60F1 /* Course.swift */,
+				EEC8D0E725599575000D60F1 /* CourseStage.swift */,
+				EEC8D0EF255995F1000D60F1 /* CourseDescriptor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -212,6 +305,7 @@
 		EEFA85012538ADCD00C4BDB6 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				EEC4631A253E988200404684 /* ColorExtension.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -221,6 +315,7 @@
 			children = (
 				EEFA855D2538B9C000C4BDB6 /* Localization.swift */,
 				EEFA856E2538BB3800C4BDB6 /* Utils.swift */,
+				EED59EBA255971A000A15D45 /* HPAnimation.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -232,6 +327,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEE02DDD25386E06001D5198 /* Build configuration list for PBXNativeTarget "HPMusic" */;
 			buildPhases = (
+				6AAACB95E1F5AB9FB845CB4F /* [CP] Check Pods Manifest.lock */,
 				EEE02DAF25386E03001D5198 /* Sources */,
 				EEE02DB025386E03001D5198 /* Frameworks */,
 				EEE02DB125386E03001D5198 /* Resources */,
@@ -249,6 +345,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEE02DE025386E06001D5198 /* Build configuration list for PBXNativeTarget "HPMusicTests" */;
 			buildPhases = (
+				6A561EA8C6615C46F754A2E7 /* [CP] Check Pods Manifest.lock */,
 				EEE02DC525386E06001D5198 /* Sources */,
 				EEE02DC625386E06001D5198 /* Frameworks */,
 				EEE02DC725386E06001D5198 /* Resources */,
@@ -267,6 +364,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEE02DE325386E06001D5198 /* Build configuration list for PBXNativeTarget "HPMusicUITests" */;
 			buildPhases = (
+				E85ABE4E7CAED059CFC05C93 /* [CP] Check Pods Manifest.lock */,
 				EEE02DD025386E06001D5198 /* Sources */,
 				EEE02DD125386E06001D5198 /* Frameworks */,
 				EEE02DD225386E06001D5198 /* Resources */,
@@ -288,7 +386,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					EEE02DB225386E03001D5198 = {
 						CreatedOnToolsVersion = 12.0;
@@ -310,7 +408,6 @@
 			knownRegions = (
 				en,
 				"zh-Hans",
-				Base,
 			);
 			mainGroup = EEE02DAA25386E03001D5198;
 			productRefGroup = EEE02DB425386E03001D5198 /* Products */;
@@ -355,23 +452,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A561EA8C6615C46F754A2E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HPMusicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AAACB95E1F5AB9FB845CB4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HPMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E85ABE4E7CAED059CFC05C93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HPMusic-HPMusicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EEE02DAF25386E03001D5198 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC8D0F0255995F1000D60F1 /* CourseDescriptor.swift in Sources */,
 				EEB645DE2538C299004776C8 /* PracticeView.swift in Sources */,
+				EEC8D0E825599575000D60F1 /* CourseStage.swift in Sources */,
+				EED59EBB255971A000A15D45 /* HPAnimation.swift in Sources */,
 				EEE02DC025386E05001D5198 /* Persistence.swift in Sources */,
 				EEB645E32538C2AE004776C8 /* CourseView.swift in Sources */,
+				EEC8D0D625598956000D60F1 /* PracticeStatisticsView.swift in Sources */,
 				EEB645EE2538C38B004776C8 /* CustomTabView.swift in Sources */,
 				EEFA855E2538B9C000C4BDB6 /* Localization.swift in Sources */,
 				EEE02DC325386E05001D5198 /* HPMusic.xcdatamodeld in Sources */,
 				EEE02DB925386E03001D5198 /* ContentView.swift in Sources */,
+				EEC46316253E6DCB00404684 /* HPLoader.swift in Sources */,
 				EEE02DB725386E03001D5198 /* HPMusicApp.swift in Sources */,
+				EED59EA7255967F600A15D45 /* PracticePlayView.swift in Sources */,
+				EED59EB62559684C00A15D45 /* PracticeSongLibraryView.swift in Sources */,
 				EEB645E82538C2D1004776C8 /* MyView.swift in Sources */,
+				EE28394B25516DB900D314F5 /* Instrument.swift in Sources */,
 				EEB645D92538C28E004776C8 /* SearchView.swift in Sources */,
 				EEB645D42538C284004776C8 /* CommunityView.swift in Sources */,
+				EED59EA2255967E200A15D45 /* InstrumentSelector.swift in Sources */,
 				EEFA856F2538BB3800C4BDB6 /* Utils.swift in Sources */,
+				EEC4631B253E988200404684 /* ColorExtension.swift in Sources */,
+				EED59EB12559684000A15D45 /* PracticeMovementView.swift in Sources */,
+				EED59EAC2559682100A15D45 /* PracticeSkillPocketView.swift in Sources */,
+				EEC8D0E325599393000D60F1 /* Course.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,8 +598,8 @@
 		EEFA85462538B77300C4BDB6 /* Localization.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EEFA85452538B77300C4BDB6 /* zh-Hans */,
 				EEFA854A2538B77600C4BDB6 /* en */,
+				EED97DFD25517A5600299E57 /* zh-Hans */,
 			);
 			name = Localization.strings;
 			sourceTree = "<group>";
@@ -432,6 +611,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -493,6 +673,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -546,6 +727,7 @@
 		};
 		EEE02DDE25386E06001D5198 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A03E3D90F6DBEB8C3DD73ADD /* Pods-HPMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -568,6 +750,7 @@
 		};
 		EEE02DDF25386E06001D5198 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11CCD300A8BAE8AE279BA798 /* Pods-HPMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -590,6 +773,7 @@
 		};
 		EEE02DE125386E06001D5198 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D4B2FA95E5A746A43EEA80 /* Pods-HPMusicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -612,6 +796,7 @@
 		};
 		EEE02DE225386E06001D5198 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E9325704952AB5B1CC07B0 /* Pods-HPMusicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -634,6 +819,7 @@
 		};
 		EEE02DE425386E06001D5198 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E4E659D1735F30FF7C1188 /* Pods-HPMusic-HPMusicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -654,6 +840,7 @@
 		};
 		EEE02DE525386E06001D5198 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F352F5B49D23D5F2E510307 /* Pods-HPMusic-HPMusicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
