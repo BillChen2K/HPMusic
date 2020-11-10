@@ -8,10 +8,12 @@
 import Foundation
 
 class CourseDescriptorItem {
-    var time: Date
+    // 以秒为单位的说明
+    
+    var time: Double
     var text: String
     
-    init(_ time: Date, _ text: String) {
+    init(_ time: Double, _ text: String) {
         self.time = time
         self.text = text
     }

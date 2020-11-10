@@ -9,12 +9,12 @@ import SwiftUI
 
 struct PracticeStatisticsView: View {
     var body: some View {
-        NavigationView {
+        
             VStack {
                 Text("训练统计模块")
             }
             .navigationTitle("训练统计")
-        }.navigationViewStyle(StackNavigationViewStyle())
+
     }
 }
 

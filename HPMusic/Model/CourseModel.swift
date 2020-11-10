@@ -17,6 +17,6 @@ class CourseModel: Identifiable {
     public var instrument: String = ""
     public var courseName: String = ""
     public var courseIntroduction: String = ""
-    public var courseStages: [CourseStage] = []
+    public var stages: [CourseStage] = []
     
 }

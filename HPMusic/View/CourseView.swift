@@ -12,7 +12,9 @@ struct CourseView: View {
    
     
     var body: some View {
-        Text("课程模块")
+        ScrollView {
+            Image("demoTabPlan").resizable().aspectRatio(contentMode: .fit)
+        }
     }
 }
 

@@ -10,7 +10,7 @@ import SwiftUI
 struct PracticePlayView: View {
     
     @State private var practicedTime = "72 小时 12 分钟"
-    
+    @State var isActive : Bool = false
     var body: some View {
         
         
@@ -71,7 +71,7 @@ struct PracticePlayView: View {
                             Text("换个课程".localized).font(.system(size: 15, weight: .regular, design: .rounded))
                         }.padding(.bottom, 12)
                         
-                        NavigationLink(destination: CourseDescription()) {
+                        NavigationLink(destination: CourseDescription(rootIsActive: $isActive), isActive: $isActive) {
                             ZStack {
                                 // 背景图
                                 Image("imgDemoPiano1").resizable().aspectRatio(contentMode: .fill).frame(height:220, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)

@@ -10,6 +10,7 @@
 		0B394792734ECD9AFECA08D7 /* Pods_HPMusic_HPMusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F0BD8199E440C2AA7561CB /* Pods_HPMusic_HPMusicUITests.framework */; };
 		849792EE68B09213DA9E52E0 /* Pods_HPMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E2BA766F1566B4C125C79A /* Pods_HPMusicTests.framework */; };
 		C05177C59C96977F2B79CF47 /* Pods_HPMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048737B8B2EF69038099A180 /* Pods_HPMusic.framework */; };
+		EE1916E4255AC2C600D6F123 /* CourseCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1916E3255AC2C600D6F123 /* CourseCompletion.swift */; };
 		EE22DA15255A3A1900D2D659 /* TypoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE22DA14255A3A1900D2D659 /* TypoExtension.swift */; };
 		EEA09495255A5F0000DD5351 /* CoursePlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA09494255A5F0000DD5351 /* CoursePlayerController.swift */; };
 		EEB645A82538C0B2004776C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB645A72538C0B2004776C8 /* Preview Assets.xcassets */; };
@@ -77,6 +78,7 @@
 		90E2BA766F1566B4C125C79A /* Pods_HPMusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPMusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03E3D90F6DBEB8C3DD73ADD /* Pods-HPMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPMusic.debug.xcconfig"; path = "Target Support Files/Pods-HPMusic/Pods-HPMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		E6E4E659D1735F30FF7C1188 /* Pods-HPMusic-HPMusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPMusic-HPMusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-HPMusic-HPMusicUITests/Pods-HPMusic-HPMusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE1916E3255AC2C600D6F123 /* CourseCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCompletion.swift; sourceTree = "<group>"; };
 		EE22DA14255A3A1900D2D659 /* TypoExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypoExtension.swift; sourceTree = "<group>"; };
 		EEA09494255A5F0000DD5351 /* CoursePlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePlayerController.swift; sourceTree = "<group>"; };
 		EEB645A72538C0B2004776C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 			children = (
 				EEC4EDCE2559A1D500731FCB /* CourseDescription.swift */,
 				EEC4EDD32559A1DF00731FCB /* CoursePlayer.swift */,
+				EE1916E3255AC2C600D6F123 /* CourseCompletion.swift */,
 			);
 			path = Course;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 			knownRegions = (
 				en,
 				"zh-Hans",
+				Base,
 			);
 			mainGroup = EEE02DAA25386E03001D5198;
 			productRefGroup = EEE02DB425386E03001D5198 /* Products */;
@@ -545,6 +549,7 @@
 				EEC8D0E825599575000D60F1 /* CourseStage.swift in Sources */,
 				EED59EBB255971A000A15D45 /* HPAnimation.swift in Sources */,
 				EEE02DC025386E05001D5198 /* Persistence.swift in Sources */,
+				EE1916E4255AC2C600D6F123 /* CourseCompletion.swift in Sources */,
 				EEB645E32538C2AE004776C8 /* CourseView.swift in Sources */,
 				EEC8D0D625598956000D60F1 /* PracticeStatisticsView.swift in Sources */,
 				EEB645EE2538C38B004776C8 /* CustomTabView.swift in Sources */,
@@ -631,7 +636,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -693,7 +698,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

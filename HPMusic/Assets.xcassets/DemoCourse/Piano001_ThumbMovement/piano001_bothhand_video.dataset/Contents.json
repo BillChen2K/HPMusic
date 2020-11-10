@@ -2,7 +2,8 @@
   "data" : [
     {
       "filename" : "piano001_bothhand_video.mp4",
-      "idiom" : "universal"
+      "idiom" : "universal",
+      "universal-type-identifier" : "public.mpeg-4"
     }
   ],
   "info" : {
