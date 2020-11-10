@@ -13,9 +13,8 @@ struct PracticeStatisticsView: View {
             VStack {
                 Text("训练统计模块")
             }
-            
             .navigationTitle("训练统计")
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

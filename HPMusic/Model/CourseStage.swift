@@ -11,8 +11,17 @@ import Foundation
 
 class CourseStage {
     
-    var midi: String = ""
-    var video: String = ""
-    var score: String = ""
-    var descriptor: String = ""
+    public var midi: String = ""
+    public var video: String = ""
+    public var score: String = ""
+    public var descriptors: [CourseDescriptorItem]
+    
+    init(midi: String, video: String, score: String) {
+        self.midi = midi
+        self.video = video
+        self.score = score
+        self.descriptors = []
+    }
+    
+
 }

@@ -10,11 +10,12 @@
 		0B394792734ECD9AFECA08D7 /* Pods_HPMusic_HPMusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F0BD8199E440C2AA7561CB /* Pods_HPMusic_HPMusicUITests.framework */; };
 		849792EE68B09213DA9E52E0 /* Pods_HPMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E2BA766F1566B4C125C79A /* Pods_HPMusicTests.framework */; };
 		C05177C59C96977F2B79CF47 /* Pods_HPMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048737B8B2EF69038099A180 /* Pods_HPMusic.framework */; };
-		EE28394B25516DB900D314F5 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28394A25516DB900D314F5 /* Instrument.swift */; };
+		EE22DA15255A3A1900D2D659 /* TypoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE22DA14255A3A1900D2D659 /* TypoExtension.swift */; };
+		EEA09495255A5F0000DD5351 /* CoursePlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA09494255A5F0000DD5351 /* CoursePlayerController.swift */; };
 		EEB645A82538C0B2004776C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB645A72538C0B2004776C8 /* Preview Assets.xcassets */; };
 		EEB645C62538C1B5004776C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB645C82538C1B5004776C8 /* InfoPlist.strings */; };
 		EEB645D42538C284004776C8 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645D32538C284004776C8 /* CommunityView.swift */; };
-		EEB645D92538C28E004776C8 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645D82538C28E004776C8 /* SearchView.swift */; };
+		EEB645D92538C28E004776C8 /* PersonalizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645D82538C28E004776C8 /* PersonalizeView.swift */; };
 		EEB645DE2538C299004776C8 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645DD2538C298004776C8 /* PracticeView.swift */; };
 		EEB645E32538C2AE004776C8 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645E22538C2AE004776C8 /* CourseView.swift */; };
 		EEB645E82538C2D1004776C8 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB645E72538C2D1004776C8 /* MyView.swift */; };
@@ -23,10 +24,13 @@
 		EEB646012538C62F004776C8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EEB646002538C62F004776C8 /* README.md */; };
 		EEC46316253E6DCB00404684 /* HPLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC46315253E6DCB00404684 /* HPLoader.swift */; };
 		EEC4631B253E988200404684 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4631A253E988200404684 /* ColorExtension.swift */; };
+		EEC4EDCF2559A1D500731FCB /* CourseDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4EDCE2559A1D500731FCB /* CourseDescription.swift */; };
+		EEC4EDD42559A1DF00731FCB /* CoursePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4EDD32559A1DF00731FCB /* CoursePlayer.swift */; };
+		EEC4EDE12559A20700731FCB /* DemoCourseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4EDE02559A20700731FCB /* DemoCourseController.swift */; };
 		EEC8D0D625598956000D60F1 /* PracticeStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8D0D525598956000D60F1 /* PracticeStatisticsView.swift */; };
-		EEC8D0E325599393000D60F1 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8D0E225599393000D60F1 /* Course.swift */; };
+		EEC8D0E325599393000D60F1 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8D0E225599393000D60F1 /* CourseModel.swift */; };
 		EEC8D0E825599575000D60F1 /* CourseStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8D0E725599575000D60F1 /* CourseStage.swift */; };
-		EEC8D0F0255995F1000D60F1 /* CourseDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8D0EF255995F1000D60F1 /* CourseDescriptor.swift */; };
+		EEC8D0F825599766000D60F1 /* CourseDescriptorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8D0F725599766000D60F1 /* CourseDescriptorItem.swift */; };
 		EED59EA2255967E200A15D45 /* InstrumentSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED59EA1255967E200A15D45 /* InstrumentSelector.swift */; };
 		EED59EA7255967F600A15D45 /* PracticePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED59EA6255967F600A15D45 /* PracticePlayView.swift */; };
 		EED59EAC2559682100A15D45 /* PracticeSkillPocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED59EAB2559682100A15D45 /* PracticeSkillPocketView.swift */; };
@@ -39,6 +43,7 @@
 		EEE02DC325386E05001D5198 /* HPMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DC125386E05001D5198 /* HPMusic.xcdatamodeld */; };
 		EEE02DCE25386E06001D5198 /* HPMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DCD25386E06001D5198 /* HPMusicTests.swift */; };
 		EEE02DD925386E06001D5198 /* HPMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE02DD825386E06001D5198 /* HPMusicUITests.swift */; };
+		EEF864BA2559B16900D18C57 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF864B92559B16900D18C57 /* Search.swift */; };
 		EEFA850D2538B20700C4BDB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE02DBA25386E05001D5198 /* Assets.xcassets */; };
 		EEFA85442538B77300C4BDB6 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEFA85462538B77300C4BDB6 /* Localization.strings */; };
 		EEFA855E2538B9C000C4BDB6 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFA855D2538B9C000C4BDB6 /* Localization.swift */; };
@@ -72,13 +77,14 @@
 		90E2BA766F1566B4C125C79A /* Pods_HPMusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPMusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03E3D90F6DBEB8C3DD73ADD /* Pods-HPMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPMusic.debug.xcconfig"; path = "Target Support Files/Pods-HPMusic/Pods-HPMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		E6E4E659D1735F30FF7C1188 /* Pods-HPMusic-HPMusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPMusic-HPMusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-HPMusic-HPMusicUITests/Pods-HPMusic-HPMusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE28394A25516DB900D314F5 /* Instrument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
+		EE22DA14255A3A1900D2D659 /* TypoExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypoExtension.swift; sourceTree = "<group>"; };
+		EEA09494255A5F0000DD5351 /* CoursePlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePlayerController.swift; sourceTree = "<group>"; };
 		EEB645A72538C0B2004776C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEB645AC2538C0DD004776C8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HPMusic/Info.plist; sourceTree = SOURCE_ROOT; };
 		EEB645C72538C1B5004776C8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		EEB645CC2538C1B8004776C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EEB645D32538C284004776C8 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
-		EEB645D82538C28E004776C8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		EEB645D82538C28E004776C8 /* PersonalizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizeView.swift; sourceTree = "<group>"; };
 		EEB645DD2538C298004776C8 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
 		EEB645E22538C2AE004776C8 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		EEB645E72538C2D1004776C8 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
@@ -87,10 +93,13 @@
 		EEB646002538C62F004776C8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EEC46315253E6DCB00404684 /* HPLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPLoader.swift; sourceTree = "<group>"; };
 		EEC4631A253E988200404684 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		EEC4EDCE2559A1D500731FCB /* CourseDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDescription.swift; sourceTree = "<group>"; };
+		EEC4EDD32559A1DF00731FCB /* CoursePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePlayer.swift; sourceTree = "<group>"; };
+		EEC4EDE02559A20700731FCB /* DemoCourseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCourseController.swift; sourceTree = "<group>"; };
 		EEC8D0D525598956000D60F1 /* PracticeStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeStatisticsView.swift; sourceTree = "<group>"; };
-		EEC8D0E225599393000D60F1 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		EEC8D0E225599393000D60F1 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
 		EEC8D0E725599575000D60F1 /* CourseStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStage.swift; sourceTree = "<group>"; };
-		EEC8D0EF255995F1000D60F1 /* CourseDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDescriptor.swift; sourceTree = "<group>"; };
+		EEC8D0F725599766000D60F1 /* CourseDescriptorItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDescriptorItem.swift; sourceTree = "<group>"; };
 		EED59EA1255967E200A15D45 /* InstrumentSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentSelector.swift; sourceTree = "<group>"; };
 		EED59EA6255967F600A15D45 /* PracticePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePlayView.swift; sourceTree = "<group>"; };
 		EED59EAB2559682100A15D45 /* PracticeSkillPocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSkillPocketView.swift; sourceTree = "<group>"; };
@@ -110,6 +119,7 @@
 		EEE02DD425386E06001D5198 /* HPMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE02DD825386E06001D5198 /* HPMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPMusicUITests.swift; sourceTree = "<group>"; };
 		EEE02DDA25386E06001D5198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF864B92559B16900D18C57 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		EEFA854A2538B77600C4BDB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
 		EEFA855D2538B9C000C4BDB6 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		EEFA85652538BA2F00C4BDB6 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
@@ -168,13 +178,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		EE28395825516E7500D314F5 /* InstrumentImpl */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = InstrumentImpl;
-			sourceTree = "<group>";
-		};
 		EEB645A32538C08F004776C8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,8 +191,18 @@
 			children = (
 				EEB645ED2538C38B004776C8 /* CustomTabView.swift */,
 				EEC46315253E6DCB00404684 /* HPLoader.swift */,
+				EEF864B92559B16900D18C57 /* Search.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		EEC4EDC22559A19400731FCB /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				EEC4EDCE2559A1D500731FCB /* CourseDescription.swift */,
+				EEC4EDD32559A1DF00731FCB /* CoursePlayer.swift */,
+			);
+			path = Course;
 			sourceTree = "<group>";
 		};
 		EED59E95255963CE00A15D45 /* Practice */ = {
@@ -272,10 +285,11 @@
 		EEFA84FE2538ADAE00C4BDB6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EEC4EDC22559A19400731FCB /* Course */,
 				EED59E95255963CE00A15D45 /* Practice */,
 				EEB645EC2538C37E004776C8 /* Components */,
 				EEB645D32538C284004776C8 /* CommunityView.swift */,
-				EEB645D82538C28E004776C8 /* SearchView.swift */,
+				EEB645D82538C28E004776C8 /* PersonalizeView.swift */,
 				EEB645DD2538C298004776C8 /* PracticeView.swift */,
 				EEB645E22538C2AE004776C8 /* CourseView.swift */,
 				EEB645E72538C2D1004776C8 /* MyView.swift */,
@@ -286,6 +300,8 @@
 		EEFA84FF2538ADB700C4BDB6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EEC4EDE02559A20700731FCB /* DemoCourseController.swift */,
+				EEA09494255A5F0000DD5351 /* CoursePlayerController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -293,11 +309,9 @@
 		EEFA85002538ADC100C4BDB6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EE28395825516E7500D314F5 /* InstrumentImpl */,
-				EE28394A25516DB900D314F5 /* Instrument.swift */,
-				EEC8D0E225599393000D60F1 /* Course.swift */,
+				EEC8D0E225599393000D60F1 /* CourseModel.swift */,
 				EEC8D0E725599575000D60F1 /* CourseStage.swift */,
-				EEC8D0EF255995F1000D60F1 /* CourseDescriptor.swift */,
+				EEC8D0F725599766000D60F1 /* CourseDescriptorItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -305,7 +319,6 @@
 		EEFA85012538ADCD00C4BDB6 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				EEC4631A253E988200404684 /* ColorExtension.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -313,9 +326,11 @@
 		EEFA855C2538B9A600C4BDB6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EEC4631A253E988200404684 /* ColorExtension.swift */,
 				EEFA855D2538B9C000C4BDB6 /* Localization.swift */,
 				EEFA856E2538BB3800C4BDB6 /* Utils.swift */,
 				EED59EBA255971A000A15D45 /* HPAnimation.swift */,
+				EE22DA14255A3A1900D2D659 /* TypoExtension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -526,7 +541,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC8D0F0255995F1000D60F1 /* CourseDescriptor.swift in Sources */,
 				EEB645DE2538C299004776C8 /* PracticeView.swift in Sources */,
 				EEC8D0E825599575000D60F1 /* CourseStage.swift in Sources */,
 				EED59EBB255971A000A15D45 /* HPAnimation.swift in Sources */,
@@ -535,22 +549,28 @@
 				EEC8D0D625598956000D60F1 /* PracticeStatisticsView.swift in Sources */,
 				EEB645EE2538C38B004776C8 /* CustomTabView.swift in Sources */,
 				EEFA855E2538B9C000C4BDB6 /* Localization.swift in Sources */,
+				EE22DA15255A3A1900D2D659 /* TypoExtension.swift in Sources */,
 				EEE02DC325386E05001D5198 /* HPMusic.xcdatamodeld in Sources */,
 				EEE02DB925386E03001D5198 /* ContentView.swift in Sources */,
 				EEC46316253E6DCB00404684 /* HPLoader.swift in Sources */,
 				EEE02DB725386E03001D5198 /* HPMusicApp.swift in Sources */,
 				EED59EA7255967F600A15D45 /* PracticePlayView.swift in Sources */,
+				EEF864BA2559B16900D18C57 /* Search.swift in Sources */,
 				EED59EB62559684C00A15D45 /* PracticeSongLibraryView.swift in Sources */,
 				EEB645E82538C2D1004776C8 /* MyView.swift in Sources */,
-				EE28394B25516DB900D314F5 /* Instrument.swift in Sources */,
-				EEB645D92538C28E004776C8 /* SearchView.swift in Sources */,
+				EEB645D92538C28E004776C8 /* PersonalizeView.swift in Sources */,
+				EEC8D0F825599766000D60F1 /* CourseDescriptorItem.swift in Sources */,
+				EEC4EDD42559A1DF00731FCB /* CoursePlayer.swift in Sources */,
 				EEB645D42538C284004776C8 /* CommunityView.swift in Sources */,
+				EEA09495255A5F0000DD5351 /* CoursePlayerController.swift in Sources */,
 				EED59EA2255967E200A15D45 /* InstrumentSelector.swift in Sources */,
 				EEFA856F2538BB3800C4BDB6 /* Utils.swift in Sources */,
 				EEC4631B253E988200404684 /* ColorExtension.swift in Sources */,
 				EED59EB12559684000A15D45 /* PracticeMovementView.swift in Sources */,
 				EED59EAC2559682100A15D45 /* PracticeSkillPocketView.swift in Sources */,
-				EEC8D0E325599393000D60F1 /* Course.swift in Sources */,
+				EEC4EDCF2559A1D500731FCB /* CourseDescription.swift in Sources */,
+				EEC8D0E325599393000D60F1 /* CourseModel.swift in Sources */,
+				EEC4EDE12559A20700731FCB /* DemoCourseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

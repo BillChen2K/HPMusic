@@ -16,43 +16,26 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             TabView(selection: $selectedTab) {
-                CommunityView()
-                    .tabItem {
-                        Image(systemName: "1.square.fill")
-                        TextNSL("社区")
-                    }
-                    .tag(1)
-                SearchView()
-                    .tabItem {
-                        Image(systemName: "2.square.fill")
-                        TextNSL("搜索")
-                    }
-                    .tag(2)
                 
+                CommunityView()
+                    .HPTabItem(icon_prefix: "community", title: "社区", tag: 1, select: $selectedTab)
+           
+                PersonalizeView()
+                    .HPTabItem(icon_prefix: "personalize", title: "个性化", tag: 2, select: $selectedTab)
                 PracticeView()
-                    .tabItem {
-                        Image(systemName: "3.square.fill")
-                        TextNSL("练习")
-                    }
-                    .tag(3)
+                    .HPTabItem(icon_prefix: "practice", title: "练习", tag: 3, select: $selectedTab)
                 
                 CourseView()
-                    .tabItem {
-                        Image(systemName: "4.square.fill")
-                        TextNSL("课程")
-                    }
-                    .tag(4)
+                    .HPTabItem(icon_prefix: "course", title: "课程", tag: 4, select: $selectedTab)
                 
                 MyView()
-                    .tabItem {
-                        Image(systemName: "5.square.fill")
-                        TextNSL("我的")
-                    }
-                    .tag(5)
+                    .HPTabItem(icon_prefix: "my", title: "我的", tag: 5, select: $selectedTab)
             }
             .font(.headline)
+            .accentColor(Color("HPBlue"))
             .onAppear(){
                 UITabBar.appearance().barTintColor = .white
+     
             }
             
             if(globalLoading) {
@@ -96,5 +79,22 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
 //            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
             .previewDevice(PreviewDevice(rawValue: "iPhone 11 Pro"))
+    }
+}
+
+extension View  {
+    func HPTabItem(icon_prefix: String, title: String, tag: Int, select: Binding<Int>) -> some View {
+        return self
+            .tabItem {
+                if (select.wrappedValue == tag) {
+                    Image("\(icon_prefix)_selected")
+                }
+                else{
+                    Image("\(icon_prefix)_default")
+
+                }
+                Text(title)
+            }
+            .tag(tag)
     }
 }

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "josh-hild-f_ok0989Jng-unsplash.jpg",
+      "filename" : "community_selected@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "josh-hild-f_ok0989Jng-unsplash-1.jpg",
+      "filename" : "community_selected@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "josh-hild-f_ok0989Jng-unsplash-2.jpg",
+      "filename" : "community_selected@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
